@@ -11,10 +11,12 @@
   }
   
   header{
-  height: 2100px;
+  height: 2000px;
   background-image: url("../img/header_picture.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  
   }
   
   .navbar {
@@ -73,7 +75,7 @@
   }
   
   .text-header{
-  margin-top: 29%;
+  margin-top: 500px;
   padding-left: 10%;
   font-size: 40px;
   color: #fff;
@@ -84,3 +86,5 @@
   display: none;
   }
   }
+
+ 
