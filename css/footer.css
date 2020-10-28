@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  
+  p{
+    font-size: 30px;
+    padding-top: 1%;
+  }
+  
+  .reseaux{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  .reseaux img{
+    padding: 10px;
+    width: 50%;
+    
+    
+  }
