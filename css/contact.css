@@ -1,0 +1,11 @@
+* {
+  margin: auto;
+}
+
+.header-image {
+  background: center / cover no-repeat url(images/whitequadrocopter.jpg);
+  position: relative;
+  height: 280px;
+  width: 100%;
+}
+
