@@ -1,0 +1,79 @@
+* {
+  margin: auto;
+}
+
+.header-image {
+  background: center / cover no-repeat url(images/whitequadrocopter.jpg);
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.big {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  border-radius: 7px;
+  margin: 15px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 14px;
+  padding-top: 35px;;
+  text-align: center;
+}
+
+.container {
+  background: black;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;;
+  opacity: 88%;
+  padding: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  .header-image {
+    height: 500px;
+  }
+  .container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  .header-image {
+    height: 700px;;
+  }
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+  .header-image {
+    height: 790px;;
+  }
+  .container {
+    margin-left: 450px;
+    margin-right: 450px;
+  }
+}
