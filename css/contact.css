@@ -77,3 +77,17 @@ h1 {
     margin-right: 350px;
   }
 }
+
+@media screen and (min-width: 1900px) {
+  h1 {
+    font-size: 35px;
+  }
+  .header-image {
+    height: 690px;;
+  }
+  .container {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
