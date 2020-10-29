@@ -56,7 +56,7 @@
 }
 
 .box_escort img{
-    padding-top: 20%;
+    padding-top: 200px;
     width: 100%;
 }
 
@@ -452,6 +452,224 @@ h1{
     background-color: #1450BA;
     color: #fff;
     margin-bottom: 10%;
+}
+
+@media screen and (max-width: 2200px){
+    section img{
+        width: 400px;
+    }
+        
+
+    section p{
+        margin-top: 5%;
+    }
+
+    .box_mouv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_story_child{
+        display: flex;
+        flex-direction: column;
+    }
+
+ .box_kitchen{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .box_animals{
+    display: flex;
+    flex-direction: column;
+ }
+
+**
+ .box-dust-off{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .box-dust-off img{
+     width: 40%;
+     height: 300px;
+     margin: none;
+ }
+
+.box-dust-off p{
+    margin: none;
+}
+ .box-repass{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .box-repass img{
+     width: 60%;
+ }
+ 
+
+}
+
+@media screen and (max-width: 1600px){
+    .box-one{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_mouv{
+        width: 80%;
+    }
+
+    .box_escort{
+        width: 80%;
+    }
+
+    .box_escort img{
+        width: 600px;
+    }
+
+    .box-two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_camera{
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    .box_camera img{
+        width: 400px;  
+    }
+
+    .box_story_child{
+        width: 80%;
+    }
+
+    .box_story_child img{
+        margin-right: 20%;
+    }
+
+    .box_story_child p{
+        margin-left: 15%;
+    }
+
+    .box-three{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_kitchen{
+        width: 80%;
+    }
+    
+    .box_animals{
+        width: 80%;
+    }
+
+    .box_animals img{
+        width: 400px;
+        padding-top: 20%;
+    }
+
+    .box_animals p{
+        margin-left: 23%;
+    }
+
+    .box-four{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-repass{
+        width: 80%;
+    }
+
+    .box-pressing{
+        width: 80%;
+    }
+
+    .box-pressing img{
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    .box-five{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .box-essential-oile{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .box-essential-oile img{
+        width: 400px;
+        padding-top: 10%;
+    }
+
+    .box-dust-off{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-dust-off img{
+        margin-left: 30%;
+    }
+
+    .box-dust-off p{
+        margin-left: 20%;
+    }
+
+    .box_six{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .security{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .police_relation{
+        width: 80%;
+    }
+
+    .police_relation img{
+        width: 70%;
+    }
+
+    .box_seven{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .electric{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .electric img{
+        width: 50%;
+        padding-top: 20%;
+    }
+
+    .piege{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .logo_application{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
