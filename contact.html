@@ -6,8 +6,7 @@
   <title>Serv'Drone</title>
   <link rel="stylesheet" href="contact.css">
 </head>
-
-<main>
+<body>
   <header class="top">
     <div class="header-image">
       
@@ -19,15 +18,14 @@
     </div>
 
   <div class="container">
-
-    <form method="POST" action="#.php" name="mon_formulaire">
+    <form method="POST" action="form_contact.php" name="mon_formulaire">
       <p>
-        <label for="nom"></label>
-        <input type="text" name="nom" id="nom" placeholder="Votre nom">
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Votre nom">
       </p>
       <p>
         <label for="mail"></label>
-        <input type="text" name="mail" id="mail" placeholder="Votre mail">
+        <input type="email" name="mail" id="mail" placeholder="Votre adresse e-mail">
       </p>
       <p>
         <textarea type="text" name="message" id="message" placeholder="Votre message" rows="5" cols="30"></textarea>
@@ -38,8 +36,6 @@
         <input type="submit" value="Envoyer" name="submitForm">
       </p>
     </form>
-
   </div>
-
-</main>
+</body>
 </html>
