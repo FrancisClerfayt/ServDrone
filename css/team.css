@@ -1,12 +1,19 @@
 * {
   margin: auto;
+  font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header-image {
-  background: center / cover no-repeat rgb(34, 5, 10);
+  background: center / cover no-repeat  url(..//img/drone_mountain.jpg);
   position: relative;
   height: 400px;
   width: 100%;
+}
+
+h1{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;;
 }
 
 /* .container {
@@ -17,11 +24,22 @@
 .image-tom,
 .image-jonathan,
 .image-arturo {
-  background: gray;
-  height: 100px;
+  height: 190px;
   /* margin-left: 50px;
   margin-right: 50px; */
   margin-top: 30px;
+}
+
+.image-tom {
+  background: center no-repeat url(../img/jonathan_round.png);
+}
+
+.image-jonathan {
+  background: center no-repeat url(../img/jonathan_round.png);
+}
+
+.image-arturo {
+  background: center no-repeat url(../img/arthuro_round.png);
 }
 
 .top,
@@ -35,10 +53,31 @@
 .top,
 .middle,
 .bottom {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 150px;
+  /* text-align: center; */
 }
 
 h2 {
   color: #1450BA ;
+}
+
+@media screen and (min-width: 768px) {
+  .top,
+  .middle,
+  .bottom {
+    align-items: baseline;
+}
+  .image-tom {
+  background: no-repeat url(../img/jonathan_round.png);
+}
+
+  .image-jonathan {
+  background: no-repeat url(../img/jonathan_round.png);
+}
+
+  .image-arturo {
+  background: no-repeat url(../img/arthuro_round.png);
+}
 }
