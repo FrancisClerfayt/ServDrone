@@ -5,11 +5,12 @@
 }
 
 header {
-  height: 2000px;
+  height: 1200px;
   background-image: url("../img/header_picture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  
   
 }
 

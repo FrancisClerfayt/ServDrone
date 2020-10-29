@@ -8,10 +8,13 @@
   .container{
       display: flex;
       flex-direction: row;
+
   }
   .container img{
-      width: 40%;
-      margin-left: 10%;
+    width: 23%;
+    margin-left: 10%;
+    height: 268px;
+    margin-top: 10%;
   }
   
   .container span{
@@ -22,8 +25,9 @@
   .container p{
     margin: 10%;
     width: 40%;
-    font-size: 40px;
+    font-size: 20px;
     text-align: justify;
+    
   }
   
   .black-box{
@@ -42,8 +46,8 @@
   
   .black-box p{
     color: #fff;
-    text-align: center;
-    font-size: 40px;
+    margin-left: 20%;
+    font-size: 30px;
     width: 60%;
     padding-top: 5%;
     text-align: justify;
@@ -66,6 +70,7 @@
       background-color:#1450BA;
       color: #fff;
       margin-bottom: 5%;
+      margin-left: 33%;
   }
   
   .titleTeam{
@@ -87,9 +92,14 @@
   }
   
   .textTeam{
-      width: 60%;
+      width: 100%;
       margin-top: 5%;
       font-size: 40px;
+  }
+
+  .textTeam p{
+    width: 60%;
+    margin-left: 20%;
   }
   
   .black_box_two{
@@ -113,6 +123,7 @@
     text-align: center;
     width: 100%;
     margin-top: 10%;
+    margin-left: 155%;
   }
   
   
@@ -138,7 +149,7 @@
   
   .first_product img{
       width: 50%;
-      height: 500px;
+      height: 360px;
   } 
   
   .second_product{
@@ -152,8 +163,8 @@
   }
   
   .second_product img{
-    width: 70%;
-    margin-top: 35%;
+    width: 91%;
+    margin-top: 100%;
   }
   
   .three_product{
@@ -167,8 +178,8 @@
   }
   
   .three_product img{
-    width: 70%;
-    margin-top: 60%;
+    width: 95%;
+    margin-top: 140%;
   }
   
   h1{
@@ -176,6 +187,7 @@
     font-size: 50px;
     margin-top: 5%;
   }
+  
   
   .history{
     display: flex;
@@ -189,10 +201,11 @@
   }
   
   .history p{
-    font-size: 50px;
-    width: 50%;
+    font-size: 40px;
+    width: 60%;
     text-align: justify;
     margin-top: 10%;
+    margin-left: 21%;
   }
   
   .history button{
@@ -204,4 +217,5 @@
     border-radius: 50px;
     background-color: #1450BA;
     color: #fff;
+    margin-left: 60%;
   }
